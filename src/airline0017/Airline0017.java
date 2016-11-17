@@ -5,6 +5,10 @@
  */
 package airline0017;
 
+import static java.lang.System.out;
+import java.util.Date;
+
+
 /**
  *
  * @author gunnar
@@ -15,7 +19,7 @@ public class Airline0017 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        out.println( "yeah at "+(new Date()) );
     }
     
 }
